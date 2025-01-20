@@ -1,3 +1,8 @@
+---
+title: Getting Started
+nav_order: 1
+---
+
 # Getting Started in the Data Team
 
 ## Table of Contents

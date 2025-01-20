@@ -1,6 +1,11 @@
-# Developers Mac Setup
+---
+title: Developers Setup
+nav_order: 2
+---
 
-### New Mac Setup Checklist:
+# Developers Setup (Mac)
+
+### Setup Checklist:
 
 #### Software Installation:
 
