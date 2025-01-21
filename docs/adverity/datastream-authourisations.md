@@ -1,6 +1,6 @@
 ---
 title: Datastream + Authourisations 
-Parent: Adverity
+parent: Adverity
 nav_order: 3
 last_modified_date: 2025-01-20 12:00
 ---
@@ -31,7 +31,7 @@ For ease, we funnel all access to `adtech.analytics@mediahubww.com` to avoid iss
     AdTech | Google Ads | All Accounts
     ```  
 
-**Authorising Using Someone Else's Credentials**
+{: .note}
 You can also choose to **Authorise Using Someone Else's Credentials**. This option will send an email to the user in question and prompt them to share access to Adverity.  
 
 **Downsides of This Approach** 

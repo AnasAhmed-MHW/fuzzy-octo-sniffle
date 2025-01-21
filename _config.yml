@@ -3,7 +3,7 @@ description: A wiki for all things Mediahub Data
 author: 
   name: Data & Analytics
   email: adtech.analytics@mediahubww.com
-logo: "assets/images/MediahubLogo-Dark.webp"
+logo: "/MediahubLogo-Dark.webp"
 
 theme: just-the-docs
 markdown: kramdown
@@ -69,12 +69,9 @@ nav_external_links:
   - title: Mediahub Portal
     url: https://portal.mediahubww.com
 
-# Show navigation error report
-nav_error_report: true # default is false/nil.
 
 back_to_top: true
 back_to_top_text: "Back to top"
-
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
@@ -122,3 +119,6 @@ compress_html:
   profile: false
   # ignore:
   #   envs: all
+
+sass:
+  quiet_deps: true

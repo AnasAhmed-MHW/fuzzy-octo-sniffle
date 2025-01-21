@@ -1,5 +1,6 @@
 ---
 title: Home
+layout: home
 nav_order: 1
 last_modified_date: 2024-01-20 12:00
 ---

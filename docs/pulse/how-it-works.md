@@ -1,7 +1,6 @@
 ---
 title: How it Works
-Parent: Brand Pulse
-nav_order: 1
+parent: Brand Pulse
 last_modified_date: 2025-01-20 12:00
 ---
 
