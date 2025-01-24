@@ -1,7 +1,7 @@
 ---
 title: Adverity
 layout: default
-nav_order: 4
+nav_order: 6
 last_modified_date: 2025-01-20 12:00
 ---
 
@@ -9,4 +9,17 @@ last_modified_date: 2025-01-20 12:00
 
 ## What is it?
 
-## The Website
+The integrated data platform for marketing teams.
+Allows you to connect to media platforms via API and fetch standardise data from each platform. 
+
+
+## Adverity instances we have access to
+
+[Mediahub Adverity Instance](https://mullenlowemediahub.datatap.adverity.com/)
+
+[Value Retail Adverity Instance](https://valueretail.datatap.adverity.com/)
+
+
+## Useful Links
+
+- 

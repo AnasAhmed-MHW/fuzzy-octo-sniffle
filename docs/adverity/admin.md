@@ -1,13 +1,13 @@
 ---
-title: Admin
+title: User Management
 parent: Adverity
 nav_order: 1
 last_modified_date: 2025-01-20 12:00
 ---
 
-# Sharing Access
+# User Management
 
-## Access to Adverity  
+## Access to Adverity
 
 You will need `admin` access to share access with an individual.  
 

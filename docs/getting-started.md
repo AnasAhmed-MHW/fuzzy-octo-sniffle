@@ -103,33 +103,3 @@ To request access, contact IT (`ITHelpdesk@mbww.com`) and ensure it’s approved
 
 {: .warning}
 IPG will be removing Egnyte as a tool in Q1 of 2025 therefore this will become redundant
-
----
-
-### Connecting Databricks to Power BI
-
-To establish a connection between Power BI and Databricks, follow these steps:
-
-#### Within Databricks:
-1. Log into Databricks: [Databricks Login](https://dbc-341b6afb-df67.cloud.databricks.com/).  
-2. Click your account name in the top-right corner and go to **Settings**.  
-3. Under the **User** subheader, select **Developer**.  
-4. In the **Access Tokens** section, click **Manage**.  
-5. Generate a new token and optionally provide a description.  
-6. **Important**: Copy the token immediately and store it securely, as it will not be displayed again.
-
-#### Within Power BI:
-1. Click **Get Data** or navigate to **File > Get Data**.  
-2. Search for **Databricks** and select the **Azure Databricks** connector.  
-3. Click **Connect**.  
-4. Enter the required details for the compute cluster being used:  
-   - **Host**: `dbc-341b6afb-df67.cloud.databricks.com`  
-   - **HTTP Path**: `sql/protocolv1/o/7058903129942627/0209-113722-jcsrnoj7`  
-   *(As of January 2025, the default cluster is the **DataOps Shared Compute Cluster**.)*  
-5. Choose a **Data Connectivity mode**:  
-   - **Direct**: Enables live refreshes.  
-   - **Import**: Requires scheduled refreshes.  
-6. Click **OK**.  
-7. For the **Authentication Method**, select **Personal Access Token** and enter the token you generated in Databricks.  
-8. Click **Connect** to establish the connection.
-

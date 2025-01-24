@@ -1,13 +1,11 @@
 ---
-title: Datastream + Authourisations 
+title: Authorisations 
 parent: Adverity
-nav_order: 3
+nav_order: 4
 last_modified_date: 2025-01-20 12:00
 ---
 
-# New Authorisations + Datastreams
-
----
+# Managing Authorisations
 
 ## Creating a New Authorisation for a Platform  
 
