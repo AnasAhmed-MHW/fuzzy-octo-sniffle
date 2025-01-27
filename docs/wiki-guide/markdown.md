@@ -1,7 +1,7 @@
 ---
 title: Markdown kitchen sink
 parent: Wiki Guide
-nav_order: 1
+nav_order: 3
 last_modified_date: 2025-01-20 12:00
 ---
 
