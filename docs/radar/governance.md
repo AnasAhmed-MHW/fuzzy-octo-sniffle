@@ -9,6 +9,8 @@ last_modified_date: 2025-01-27 12:00
 
 This guide outlines the configuration requirements for the MediaPlan Template, located in the `MediaPlan` tab of the governance document.
 
+All these configurations are extracted and defined as values in the `MediaPlanVars` class. 
+
 ---
 
 ## Key Headers and Their Purpose
@@ -81,6 +83,12 @@ This guide outlines the configuration requirements for the MediaPlan Template, l
   Defines the row where metrics, such as impressions, are input.  
   - Example: If the impressions metric is in the second row (Python indexing), set `PrimaryFlightingConfig` to `2`.
 
+  |   |   |
+  |---|---|
+  | Flight Status| xxxxx  |
+  | Net Net Cost| 0000.0  |
+  | Impression | 000  |
+
 ---
 
 ### Mandatory and Optional Columns
@@ -103,15 +111,15 @@ This guide outlines the configuration requirements for the MediaPlan Template, l
 ### Calculation Settings
 
 - **`ZeroCostCol`**  
-  Identifies columns containing values like `Flat fee` or `Zero Cost` to ignore rows with zero spend. The column name must reflect its cleaned version.  
+  Identifies columns containing values like `Flat fee`, `Zero Cost`, `Value Add` to ignore rows with no spend. The column name must reflect its cleaned version.  
 
 - **`RateCalculateCol`**  
-  Specifies columns used to calculate cost-per-metric. Two values are required:  
+  Specifies columns used to calculate cost-per-metric. Two values are required (in order):  
   - The cost column.  
   - The metric column.
 
 - **`ActualRateCalculateCol`**  
-  Functions like `RateCalculateCol` but applies to actualisation. These values should reference the actual cost and metric columns.
+  Functions like `RateCalculateCol` but applies to actualisation. These values should reference the actual cost and metric columns (in order).
 
 - **`Actualise`**  
   Indicates whether to process an actualised section for partial actualisation. Accepts `TRUE` or `FALSE`.
@@ -124,8 +132,9 @@ This guide outlines the configuration requirements for the MediaPlan Template, l
   Defines the default year for converting week numbers into `YYYY-MM-DD` format.
 
 - **`DateCol`**  
-  Refers to the column containing weekly numbers in the MediaPlan (e.g., `{week number}-{day start}`).  
-  - Includes a workaround for specific issues, such as with New Balance.
+  Refers to the column containing weekly numbers in the MediaPlan typically in a  `{week number}-{day start}` format -> generally seen like `0-25`  
+  - Delimit using `,`
+  - There have been workarounds added for specfic MediaPlans for New Balance.
 
 - **`MediaDates`**  
   Names the columns for start and end dates in the MediaPlan. Typically, `start_date, end_date` with the first delimiter as `start` and the second as `end`.
@@ -151,7 +160,7 @@ This guide outlines the configuration requirements for the MediaPlan Template, l
   Identifies columns where naming errors result in a **warning**. Values not matching the `Shared Values` tab generate a warning.
 
 - **`MetaKeys`**  
-  Lists expected values in the meta table’s left-hand side (e.g., `MediaPlan ID`, `Channel`, `FX Rate`). Missing values trigger a **fatal error**. These are joined with the tab’s transformations.
+  Lists expected values in the meta table’s left-hand side (e.g., `MediaPlan ID`, `Channel`, `FX Rate`). Missing values trigger a **fatal error**
 
 ---
 
@@ -174,8 +183,8 @@ This guide outlines the configuration requirements for the MediaPlan Template, l
 ### Miscellaneous
 
 - **`NaNColumns`**  
-  Specifies columns that, if empty, result in row removal.  
-  **Example:**  
+  Specifies columns that, if empty, result in row removal. This will convert the value to a list you do not need square brackets. 
+  <br>**The usecase being**  
   ```python
   df.dropna(subset=NaNColumns)
   ```
