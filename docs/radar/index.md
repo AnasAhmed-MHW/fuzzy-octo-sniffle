@@ -35,8 +35,17 @@ graph LR;
 What  happens in databricks after a file is uploaded into the `uploads` folder. 
 
 ```mermaid
+graph TD;
 
-graph
+MP[MediaPlan Uploaded to the **uploads** folder] --> T1[Triggers the **TRIGGER** Worflow]
+T1 --> Task1[The Trigger Notebook is Run]
+Task1 --> Task2[Trigger Notebook Generates a Job within the **RUNNER** Workflow]
+Task2 --> Task2A[MediaPlan is run through the Main MediaPlan Notebook]
+Task2A --> Task2B[MediaPlan is categorised into a _Failed_ or _Successful_ Plan]
+Task2B --> Task2C[MediaPlan is shifted to a _Sucess_ or _Failed_ Folder]
+Task2A --> Task3A[Next Stage of **TRIGGER** Workflow. This is the Update Notebook]
+Task3A --> Task3B[Update MediaPlan Notebook is run. Ensuring Latest MediaPlan are active]
+Task3B --> Task4[Next stage of **TRIGGER** Notebook is run. This is where the Gold Table is gernally defined]
 
 ```
 
