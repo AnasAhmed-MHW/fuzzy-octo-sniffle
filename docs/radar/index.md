@@ -30,6 +30,14 @@ graph LR;
     C-->D[Bronze MediaPlan Table];
 ```
 
+## Technical Workflow
 
+What  happens in databricks after a file is uploaded into the `uploads` folder. 
+
+```mermaid
+
+graph
+
+```
 
 ## Testing
