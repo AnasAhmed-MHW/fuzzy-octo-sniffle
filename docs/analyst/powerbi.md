@@ -38,7 +38,7 @@ To establish a connection between Power BI and Databricks, follow these steps:
 
 ## Power BI Embedded Issues: Common Root Causes and Resolutions  
 
-In my experience, nearly all Power BI Embedded issues can be traced back to three key areas: **Credential Issues**, **Memory Issues**, and **Initial Configuration Issues**. Here's a deeper dive into each category and practical steps to address them.  
+In my experience, nearly all Power BI Embedded issues can be traced back to four key areas: **Credential Issues**, **Memory Issues**, **Initial Configuration Issues** and **Schema Changes**. <br>Here's a deeper dive into each category and practical steps to address them.  
 
 ### 1. **Credential Issues**  
    **Symptoms:**  
@@ -98,3 +98,20 @@ In my experience, nearly all Power BI Embedded issues can be traced back to thre
    - Double-check the workspace, dataset, and report IDs in your code to ensure they align with what’s published in the Power BI Service.  
    - Confirm that you are using the correct cluster path and url.   
 
+---
+
+### 4. **Schema Change Issues**  
+   **Symptoms:**  
+   - Refresh errors occur.  
+   - "Data Source Error" messages are displayed.  
+   - Visuals fail to render or display incorrect data.  
+
+   **Common Causes:**  
+   - Changes to the table structure, such as renamed columns or altered data types.  
+   - Mismatched data types in the source data compared to the Power BI model.  
+
+   **Solutions:**  
+   - Ensure all column names and data types in the source data match the Power BI model.  
+   - If schema changes occur, update the Power BI model to reflect the new structure.  
+   - Perform a full refresh of the dataset after making any schema adjustments.  
+   - Use Power Query to validate and transform data types as needed to maintain consistency.  
