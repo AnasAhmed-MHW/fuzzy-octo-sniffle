@@ -1,6 +1,6 @@
 ---
 title: Governance 101
-nav_order: 99
+nav_order: 4
 last_modified_date: 2025-01-25 12:00
 ---
 
