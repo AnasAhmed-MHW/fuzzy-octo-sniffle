@@ -6,6 +6,11 @@ last_modified_date: 2025-01-20 12:00
 
 # Developers Setup (Mac)
 
+<br> 
+
+{: .important}
+You will need some Admin permissions to get most of this installed and configured. We recommend asking IT to share temporary Admin access. 
+
 ## Software Installation:
 
 1. **Homebrew:** Install Homebrew package manager.

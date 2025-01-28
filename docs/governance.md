@@ -47,15 +47,15 @@ To maintain consistency across tools, all governance documents must include the 
 2. **`MediaPlan`**  
    Contains Media Plan Template configurations.  
 
-3. **`FieldCodes`**  
-   Provides a categorized list of acronyms and their corresponding terms.  
-
-4. **`Meta`**  
+3. **`Meta`**  
    Stores the configurations for the Taxonomy Checker tool.  
 
----
+4. **`FieldCodes`**  
+   Provides a categorised list of acronyms and their corresponding terms.  
 
-### Notes:
-- Always ensure the tabs are named exactly as specified to avoid errors in production tools.
-- Regularly review and update governance documents to reflect the latest requirements and standards.
+
+
+{: .important}
+> - Always ensure the tabs are named exactly as specified to avoid errors in production tools.
+> - Regularly review and update governance documents to reflect the latest requirements and standards.
 
