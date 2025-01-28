@@ -30,7 +30,3 @@ Step6 --> Step7[<b>Feedback Loop</b><br> Iterate and improve based on results]
 Step7 --> Step3
 ```
 
-## Key Features
-
-
-## Tech Stack

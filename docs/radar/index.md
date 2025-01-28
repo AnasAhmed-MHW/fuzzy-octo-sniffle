@@ -11,6 +11,7 @@ last_modified_date: 2025-01-20 12:00
 
 RADAR aims to unify online and offline media data to enable greater and granular analysis of media activity. 
 
+---
 
 ## MediaPlan Template
 
@@ -18,8 +19,10 @@ This starts with the MediaPlan Template which is standardised. Example file here
 
 Work with Roland and the Account Director for the client to help inform the template and make changes to this. 
 
+---
 
 ## General Workflow
+
 
 ```mermaid
 graph LR;
@@ -30,7 +33,11 @@ graph LR;
     C-->D[Bronze MediaPlan Table];
 ```
 
+---
+
+
 ## Technical Workflow
+
 
 What  happens in databricks after a file is uploaded into the `uploads` folder. 
 
@@ -49,5 +56,4 @@ Task3B --> Task4[Next stage of **TRIGGER** Notebook is run. This is where the Go
 
 ```
 
-## Testing
 
