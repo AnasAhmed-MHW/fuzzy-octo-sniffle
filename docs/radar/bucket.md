@@ -1,7 +1,7 @@
 ---
 title: AWS Bucket
 parent: RADAR
-nav_order: 5
+nav_order: 2
 last_modified_date: 2025-01-20 12:00
 ---
 

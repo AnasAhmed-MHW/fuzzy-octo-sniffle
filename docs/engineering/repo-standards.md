@@ -1,7 +1,7 @@
 ---
 title: Repositrory Best Practices
 parent: Engineering Standards
-nav_oder: 3
+nav_order: 3
 last_modified_date: 2025-01-20 12:00
 ---
 

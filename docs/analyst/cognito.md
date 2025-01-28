@@ -1,7 +1,7 @@
 ---
 title: Portal User Management
 parent: Analyst Engineering Guide
-nav_oder: 1
+nav_order: 1
 last_modified_date: 2025-01-28 12:00
 ---
 

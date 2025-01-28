@@ -1,7 +1,7 @@
 ---
 title: MediaPlan Governance
 parent: RADAR
-nav_order: 4
+nav_order: 1
 last_modified_date: 2025-01-27 12:00
 ---
 

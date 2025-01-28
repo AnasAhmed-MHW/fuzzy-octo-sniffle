@@ -1,7 +1,7 @@
 ---
 title: Adjusting Taxonomy
 parent: Analyst Engineering Guide
-nav_oder: 3
+nav_order: 3
 last_modified_date: 2025-01-23 12:00
 ---
 
@@ -13,7 +13,8 @@ There is a ‘statute of limitations’ so to speak on very old campaigns where 
 
 ---
 
-## Platform Limitations
+
+## Platform Limitations
 
 Each platform imposes its own restrictions on how long campaign names can be updated:  
 
@@ -38,6 +39,8 @@ To address these limitations, we’ve implemented a **Substitution Process** tha
 {: .note}
 We keep these seperate from the governance docs as to should you wish to allow access to teams outside of D&A. 
 
+<br>
+
 <table>
     <tr>
         <td><a href="https://docs.google.com/spreadsheets/d/1m4TUDxEhlw5fqAKqxxS4PttI-6EUanjHtF3kXfnGjU0/">Value Retail</a></td>
@@ -46,6 +49,7 @@ We keep these seperate from the governance docs as to should you wish to allow a
     </tr>
 </table>
 
+<br>
 
 {: .warning}
 Please ensure there is no duplications. This process will take the first instance of the name. There also may be unintended duplications with duplications here. 
@@ -66,4 +70,4 @@ To standardise and improve readability, the **FieldCodes** tab in the governance
    - **Word:** The full, readable name to be used in dashboards.  
 
 {: .tip}
-This process also supports correcting common misspellings (e.g., "Ingoldstadt" → "Ingolstadt").  
+This process also supports correcting undetected misspellings <br> _Example includes: "Ingoldstadt" → "Ingolstadt"_.  

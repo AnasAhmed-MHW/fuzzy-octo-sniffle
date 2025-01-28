@@ -1,7 +1,7 @@
 ---
 title: Coding Standards
 parent: Engineering Standards
-nav_oder: 1
+nav_order: 1
 last_modified_date: 2025-01-20 12:00
 ---
 # Coding Standards

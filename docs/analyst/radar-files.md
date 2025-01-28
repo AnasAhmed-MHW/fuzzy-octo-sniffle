@@ -1,7 +1,7 @@
 ---
 title: RADAR Shared Files
 parent: Analyst Engineering Guide
-nav_oder: 2
+nav_order: 2
 last_modified_date: 2025-01-23 12:00
 ---
 
