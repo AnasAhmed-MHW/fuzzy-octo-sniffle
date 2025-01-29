@@ -15,6 +15,7 @@ The Engineering Standup [Board](https://app.asana.com/0/1207400211954260/1207400
 These columns categorise tasks based on their current status or workflow stage:  
 - **Backlog**: Tasks that are not urgent and can be worked on in the future.  
 - **Priority**: High-priority tasks that need immediate attention, typically with deadlines in the next two weeks.  
+- **Blocked**: Tasks that are blocked by someone outside the data team and is awaiting response. 
 - **To Review**: Tasks that are completed but need to be reviewed or validated by a stakeholder or team member before being marked as done.  
 - **Completed**: Tasks that have been reviewed, validated, and officially finished.
 
@@ -111,6 +112,36 @@ When moving a ticket from the **Priority** column to an engineer’s column, con
 
 {: .warning}  
 Avoid overwhelming engineers with too many small, urgent tasks.  
+
+---
+
+## Lagging Tickets 
+- **Problem**: Depending on external prioirties some tickets may not progress.  
+- **Steps**:  
+  1. During standups, flag any priority tickets that haven’t seen progress for over two weeks
+  2. Ensure requirements are clear
+  3. Escalation process
+     1. Ensure ticket is clear and in the prioritised list (Needs to be completed in the next two weeks)
+     2. In daily standups prioritise your client tickets
+     3. Flag in daily standup if there is no progress 
+     4. Flag in the Monday Standup to repriotise client-engineering resource
+     5. Have an "Overdue" flag to allow reminders to pririotse.
+
+{: .tip}
+Schedule bi-weekly backlog grooming and review sessions to review tickets that haven’t moved and decide whether they should be closed, updated, or reprioritised
+
+---
+
+## One Client hogging resource
+- **Problem**: A single client or project consuming too much of the team’s bandwidth can lead to other priorities being neglected. This imbalance can create delays in other workstreams and impact overall productivity  
+- **Steps**:  
+  1. Monitor workloads for each clienbt ensuring there is enough resource being allocated cross-clients
+  2. Give clear priority based on impact and deadline
+  3. Track time being spent on ticketsd and projects
+  4. Raise awareness!
+
+{: .important}
+In bi-weekly sessions rebalance client priorities to ensure fair distribution.
 
 ---
 
