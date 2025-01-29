@@ -1,14 +1,36 @@
 ---
 title: Engineering Process
 nav_order: 99
-last_modified_date: 2025-01-20 12:00
+last_modified_date: 2025-01-29 12:00
 ---
 
 # Working with Engineers
 
+We are a pain-in-the-arse to work with. So here are some things that hopefully will make life easier for us all. 
+
 ## **Asana**
 
-### **Daily Standups**  
+The Engineering Standup [Board](https://app.asana.com/0/1207400211954260/1207400871321914) is specifically designed to organise and prioritise tasks efficiently.
+
+These columns categorise tasks based on their current status or workflow stage:  
+- **Backlog**: Tasks that are not urgent and can be worked on in the future.  
+- **Priority**: High-priority tasks that need immediate attention, typically with deadlines in the next two weeks.  
+- **To Review**: Tasks that are completed but need to be reviewed or validated by a stakeholder or team member before being marked as done.  
+- **Completed**: Tasks that have been reviewed, validated, and officially finished.
+
+Each engineer has their own column to track their active and assigned tasks. Tasks move into an engineer’s column when they are ready to be picked up from the **Priority** column. The goal is to maintain focus and ensure engineers are not overloaded, with no more than 2–3 tasks assigned at any given time.  
+
+This structure allows the team to:  
+- Maintain clarity on task priorities and ownership.  
+- Streamline task progression from backlog to completion.  
+- Easily identify who is working on what, reducing dependency-related delays.  
+
+{: .important}  
+Use this board as the single source of truth for task status, ownership, and priority order to ensure alignment across the team. Link Engineering ticket to other boards as necessity. 
+
+---
+
+## **Daily Standups**  
 - **Purpose**: Share updates, address blockers, and align on priorities.  
 - **Best Practices**:  
   - Keep updates concise!
@@ -16,12 +38,15 @@ last_modified_date: 2025-01-20 12:00
     - What’s planned for today? 
     - Are there any blockers?
   - Use this time to align on shared tasks or deadlines.  
-  - Highlight dependencies and clearly identify who to approach for further details.  
+  - Highlight dependencies and clearly identify who to approach for further details.
+  - **Completion Flags**: Flag completed tickets explicitly during standups to ensure clarity 
 
 {: .tip}  
 Ensure enough context is provided. If necessary, have follow-up conversations outside of standups to fully understand the ask and requirements.  
 
-### **Creating a New Request**  
+---
+
+## **Creating a New Request**  
 - **Purpose**: Provide clear and detailed requests to engineers.  
 - **Steps**:  
   1. Create a new task in Asana with a descriptive title.  
@@ -33,32 +58,40 @@ Ensure enough context is provided. If necessary, have follow-up conversations ou
      - **Deadline and priority level**: Specify timelines.  
   4. Attach any relevant screenshots or documentation.  
 
-{: .tip}  
+{: .important}  
 For requests outside the London D&A team, ensure an engineer attends the briefing to reduce misunderstandings.  
 
-### **Prioritisation of a Request**  
+---
+
+## **Prioritisation of a Request**  
 - **Guiding Questions**:  
   - How urgent is this request? (Does it block another team or project?)  
   - What is the business impact? (E.g., revenue or customer experience impact?)  
   - Are there dependencies or deadlines tied to the request?  
+  - When shifting a priority ticket to an engineers column. Question: How does this relate to current tickets.
 
 - **Process**:  
   - Non-priority tasks should remain in the backlog.  
   - Priority tasks (with deadlines within the next two weeks) should be placed in the **Priority** column.  
-  - Tasks assigned to engineers should be planned to be completed within the current week.  
+  - Tasks assigned to engineers should be planned to be completed within the current week. 
+  - Tasks assigned to engineers should be limited to 2–3 active tickets at a time to avoid overloading. 
 
 {: .important}  
 When moving a ticket from the **Priority** column to an engineer’s column, confirm that it can still be addressed within the time frame.  
 
-### **The Effort per Ticket**  
+---
+
+## **The Effort per Ticket**  
 - **Effort Estimation**:  
   - Collaborate with engineers to understand what’s involved (e.g., is it a simple query or a new pipeline?).  
   - Engineers should factor in technical complexity, existing workloads, and dependencies when estimating effort.  
 - **Asana Tickets**:  
-  - Each ticket should be completable within a day.  
+  - Each engineer should ideally have **no more than 2–3 tickets in progress** at a time
   - For larger tasks, use subtasks that can be completed within a day to break down the work, demonstrate progress, and maintain momentum.  
 
-### **(Engineers) Understanding a Completion of a Request**  
+---
+
+## **(Engineers) Understanding a Completion of a Request**  
 - **Clear Completion Criteria**:  
   - Define what "done" means for the request (e.g., code merged, data verified, dashboards updated).  
   - Agree on validation steps such as peer reviews, testing, and sign-off from the requester.  
@@ -85,6 +118,7 @@ Avoid overwhelming engineers with too many small, urgent tasks.
 - **Definition**: Large-scale, multi-phase initiatives that require planning, resource allocation, and collaboration (e.g., building a new data warehouse, migrating systems, or designing complex ETL pipelines).  
 - **Steps for Collaboration**:  
   1. **Kickoff Meeting**: Align on objectives, roles, and timelines.  
+    - Identify each engineer's **speciality** to assign roles that best match their strengths
   2. **Detailed Specs**: Clearly define the problem, requirements, and any constraints upfront.  
   3. **Milestones**: Break the project into manageable phases with clear deliverables and review checkpoints.  
   4. **Regular Check-Ins**: Schedule weekly or biweekly syncs to track progress and address blockers.  
