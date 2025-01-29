@@ -1,7 +1,7 @@
 ---
 title: Functional Modules
 parent: Brand Pulse
-nav_order: 4
+nav_order: 5
 last_modified_date: 2025-01-23 12:00
 ---
 

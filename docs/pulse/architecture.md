@@ -15,7 +15,7 @@ Brand Pulse has been migrated to the repo [BrandPulse](https://github.com/Mediab
 ## High-Level Flow
 
 ```mermaid
-graph LR;
+graph
 step1[**Focal Data Drop**<br>Focal Data shares two CSV files to an S3 Bucket:<br>One for dates and one for data] --> step2[**Notebook Silver**<br>A Notebook processes and cleans the data into two formats:<br>long and wide SDFs] --> step3[**Notebook Gold**<br>A Notebook generates multiple gold tables tailored for dashboard use cases]
 ```
 
@@ -25,7 +25,7 @@ step1[**Focal Data Drop**<br>Focal Data shares two CSV files to an S3 Bucket:<br
 
 ### Bronze
 
-The `bronze_brandpulse` table serves as the foundational raw data layer. It merges the date and data files from the S3 bucket, storing survey questions and responses in their unprocessed format.
+The `bronze_brandpulse` table serves as the foundational raw data layer. <br>It merges the date and data files from the S3 bucket, storing survey questions and responses in their unprocessed format.
 
 **Key Features:**
 - Contains raw survey data as ingested.
@@ -38,7 +38,7 @@ The `bronze_brandpulse` table serves as the foundational raw data layer. It merg
 The Silver tables provide a cleaned and standardized version of the data, addressing inconsistencies and variations in survey responses.
 
 **Key Improvements:**
-- Harmonizes terminology differences across regions (e.g., “trainer” vs. “sneaker”).
+- Harmonises terminology differences across regions (e.g., “trainer” vs. “sneaker”).
 - Adjusts for changes in question formats or response options over time.
 
 **Available Tables:**
@@ -56,7 +56,7 @@ The Gold tables are designed to meet specific use-case requirements for New Bala
    - Unique rows by `respondent_id` and `wave`.
 
 2. **`gold_brandpulse_funnel`**
-   - Tracks brand funnel metrics such as awareness, consideration, purchase intent, and mentions.
+   - Tracks brand funnel metrics such as awareness, consideration, purchase intent, and mentions. Other metrics that were easy to add are here as well.
    - Unique rows by `respondent_id`, `wave`, and `brand`.
 
 3. **`gold_brandpulse_audience`**
@@ -69,7 +69,7 @@ The Gold tables are designed to meet specific use-case requirements for New Bala
 
 5. **`gold_brandpulse_multianswer`**
    - Handles questions with multiple answers and no consistent denominator (e.g., brands, celebrities).
-   - Includes columns for a generalized question category (`funnel`), cleaned responses, and the original question number for filtering.
+   - Includes columns for a generalised question category (`funnel`), cleaned responses, and the original question number for filtering.
 
 6. **`gold_brandpulse_brandassociation`**
    - Tracks associations with New Balance slogans, such as “Run Your Way” and “We Got Now.”
