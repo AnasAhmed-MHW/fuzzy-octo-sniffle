@@ -30,7 +30,7 @@ Use this board as the single source of truth for task status, ownership, and pri
 
 Engineering have 3 types of meetings:
 
-1. Dialy Standups (15mins): Share updates, address blockers, and align on priorities 
+1. Daily Standups (15mins): Share updates, address blockers, and align on priorities 
 2. Bi-Weekly Review (40mins): Reflect on the team's progress, reprioritise the backlog, and align on upcoming tasks
 3. Tech Debt (60mins): Address underlying technical issues or inefficiencies that impact the team's ability to deliver.
 
@@ -154,8 +154,8 @@ In bi-weekly sessions rebalance client priorities to ensure fair distribution.
 ## Big Projects
 - **Definition**: Large-scale, multi-phase initiatives that require planning, resource allocation, and collaboration (e.g., building a new data warehouse, migrating systems, or designing complex ETL pipelines).  
 - **Steps for Collaboration**:  
-  1. **Kickoff Meeting**: Align on objectives, roles, and timelines.  
-    - Identify each engineer's **speciality** to assign roles that best match their strengths
+  1. **Kickoff Meeting**: Align on objectives, roles, and timelines.
+     - Identify each engineer's **speciality** to assign roles that best match their strengths
   2. **Detailed Specs**: Clearly define the problem, requirements, and any constraints upfront.  
   3. **Milestones**: Break the project into manageable phases with clear deliverables and review checkpoints.  
   4. **Regular Check-Ins**: Schedule weekly or biweekly syncs to track progress and address blockers.  
