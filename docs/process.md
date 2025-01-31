@@ -74,6 +74,14 @@ Ensure enough context is provided. <br>If necessary, have follow-up conversation
   - Ensure the list of tasks can be completed within the two-week sprint.
   - Reprioritise tasks based on current workloads.
   - Share estimated story points (hours) on each ticket.
+- **Pre-Meeting Developer Huddle**: Allocate the first 10 minutes of the sprint meeting for developers only. This time allows the engineering team to:
+    - Align internally on task priorities and effort estimates.
+    - Discuss any technical challenges or dependencies.
+    - Plan their workload without external pressure, ensuring they are fully prepared to present updates and priorities to the wider team.
+  - After the developer huddle, the wider D&A team joins to review the prioritised backlog, discuss upcoming tasks, and align on business priorities.
+
+{: .important}  
+The developer huddle ensures engineers have the space to collect their thoughts, align internally, and plan effectively, leading to more productive and focused discussions with the wider team.
 
 ---
 
@@ -105,16 +113,17 @@ For requests outside the London D&A team, ensure an engineer attends the briefin
   - How urgent is this request? (Does it block another team or project?)
   - What is the business impact? (E.g., revenue or customer experience impact?)
   - Are there dependencies or deadlines tied to the request?
-  - When shifting a priority ticket to an engineer’s column, question: How does this relate to current tickets?
+  - When shifting a priority ticket to an engineer’s column, question: How does this relate to current tickets and the ongoing sprint?
 
 - **Process**:
-  - Non-priority tasks should remain in the backlog.
-  - Priority tasks (with deadlines within the next two weeks) should be placed in the **Priority** column.
-  - Tasks assigned to engineers should be planned to be completed within the current week.
-  - Tasks assigned to engineers should be limited to 2–3 active tickets at a time to avoid overloading.
+  - Non-priority tasks should remain in the **Backlog** column until they are ready to be addressed.
+  - Priority tasks (with deadlines within the next two weeks) should be placed in the **Priority** column during the bi-weekly sprint planning session.
+  - Tasks assigned to engineers should align with the current sprint’s goals and be planned to be completed within the two-week sprint cycle.
+  - Tasks assigned to engineers should be limited to 2–3 active tickets at a time to avoid overloading and ensure focus.
+  - During the bi-weekly sprint review, assess the progress of tasks in the **Priority** column and reprioritise as needed for the next sprint.
 
 {: .important}  
-When moving a ticket from the **Priority** column to an engineer’s column, confirm that it can still be addressed within the time frame.
+When moving a ticket from the **Priority** column to an engineer’s column, confirm that it aligns with the current sprint’s goals and can be completed within the sprint timeframe. Tickets within an engineer’s column should be completed within the sprint cycle (two weeks) unless explicitly reprioritised during the sprint review.
 
 ---
 
@@ -147,7 +156,7 @@ When moving a ticket from the **Priority** column to an engineer’s column, con
 - **Communication**: Use direct communication (e.g., Teams or Slack) to clarify details quickly without taking time during standups.
 
 {: .warning}  
-Avoid overwhelming engineers with too many small, urgent tasks.
+There will be a buffer period for Adhoc tasks ensure you do not overwhelming engineers with too many small, urgent tasks.
 
 ---
 
