@@ -30,25 +30,24 @@ To run this site locally, you’ll need to have Ruby and Bundler installed. Foll
    gem install bundler
    ```
 
-3. **Clone the Repository**: Clone this repository to your local machine:
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
-   ```
-
-4. **Install Dependencies**: Use Bundler to install the required gems:
+3. **Install Dependencies**: Use Bundler to install the required gems:
    ```bash
    bundle install
    ```
 
-5. **Build and Serve the Site**: Start the Jekyll server to preview the site locally:
+   1. If you remove the `Gemfile.lock` or need to redo something. You can regenerate this by running
+   ```bash
+   bundle init
+   ```
+
+4. **Build and Serve the Site**: Start the Jekyll server to preview the site locally:
    ```bash
    bundle exec jekyll build
    bundle exec jekyll serve
    ```
    The site will be available at `http://localhost:4000`.
 
-6. **Make Changes**: Edit files in your local repository. The site will automatically rebuild, and you can preview changes in real-time.
+5. **Make Changes**: Edit files in your local repository. The site will automatically rebuild, and you can preview changes in real-time.
 
 ---
 
