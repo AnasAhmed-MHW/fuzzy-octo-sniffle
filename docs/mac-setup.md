@@ -1,7 +1,7 @@
 ---
 title: Developers Setup
 nav_order: 3
-last_modified_date: 2023-11-20 12:00
+last_modified_date: 2024-12-29 12:00
 ---
 
 # Developers Setup (Mac)
