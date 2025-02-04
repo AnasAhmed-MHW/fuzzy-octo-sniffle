@@ -18,6 +18,9 @@ To this effect there is are two files that are pertinant `mapping.py` and `quest
 
 ## Mapping
 
+Within the `mapping.py` file there are four varaibles. 
+
+1. 
 
 
 ## 4. **Configuration and Mapping Files**
