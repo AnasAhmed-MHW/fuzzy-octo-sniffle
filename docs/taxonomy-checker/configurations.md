@@ -143,3 +143,6 @@ Below is a detailed explanation of each key in the `CLIENT_DICT` configuration:
 - **Purpose**: The Google Sheet ID for the substitution sheet. This sheet is typically stored in a separate Google Sheet to facilitate sharing with external teams.
 - **Example**: `"1m4TUDxEhlw5fqAKqxxS4PttI-6EUanjHtF3kXfnGjU0"`
 
+
+{: .important}
+Table names should be the full path. Including the metastore and catalog.
