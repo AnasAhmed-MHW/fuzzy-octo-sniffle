@@ -161,28 +161,28 @@ brew install git
    As of March 2024: If you want biometric browser integration (ie fingerprint to unlock chrome, firefox) you will need to use bitwarden from the app store.
    Version from brew/ in-website will not allow this browser integration.
 
-9. **Anaconda:**
-    - Website: [Anaconda](https://www.anaconda.com/products/distribution)
-    ```bash
-    brew install --cask anaconda
-    ```
+8. **uv:**  
+   - Website: [uv](https://github.com/astral-sh/uv)  
+   ```bash
+   brew install uv
+   ```
 
-10. **Zoom**
+9.  **Zoom**
     - Website: [Zoom](https://zoom.us/download)
     ```bash
     brew install --cask zoom
     ```
 
-11. **Egnyte Core**
+10. **Egnyte Core**
     - Website: [Engyte Core](https://helpdesk.egnyte.com/hc/en-us/articles/6688611695373-New-Desktop-App-Core-for-Mac)
     - MediaHub Egnyte Domain is `https://mediahubemea.egnyte.com/`
 
-12. **Rectangle:** 
+11. **Rectangle:** 
     ```bash
     brew install --cask rectangle
     ```
 
-13. **Maccy:** 
+12. **Maccy:** 
     ```bash
     brew install --cask maccy
     ```
