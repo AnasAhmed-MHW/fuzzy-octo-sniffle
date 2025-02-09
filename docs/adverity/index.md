@@ -19,7 +19,3 @@ Allows you to connect to media platforms via API and fetch standardise data from
 
 [Value Retail Adverity Instance](https://valueretail.datatap.adverity.com/)
 
-
-## Useful Links
-
-- 
