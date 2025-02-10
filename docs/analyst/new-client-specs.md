@@ -73,7 +73,8 @@ Tracks user events, which vary by client and platform. These may include likes, 
 
 There are some platforms were the media delivery and the media conversions can be fetched in one datastream (ie Meta).
 
-*Conversions are standardised to be fetched from corresponding platforms for consistency.*
+{: .important}
+Share clear guidelines on how far back data should be pulled
 
 ## How Timelines Are Affected
 
@@ -96,12 +97,3 @@ Before implementation, outline a wireframe of expected dashboards:
 - Define **gold tables** and how they should be structured.
 - Identify the necessary **granularity of summary tables**.
 - Consider any **specialist views** required per channel.
-
-### Missing Elements & Recommendations
-- **API Rate Limits**: Considerations for API rate limitations affecting data retrieval.
-- **Historical Data Strategy**: Clear guidelines on how far back data should be pulled.
-- **Automated Monitoring & Alerts**: Set up proactive notifications for API failures or data inconsistencies.
-- **Data Retention Policies**: Define how long data is stored and archived.
-
-By addressing these factors early, onboarding can be streamlined, ensuring accurate and reliable reporting for new clients.
-

@@ -74,6 +74,7 @@ Ensure enough context is provided. <br>If necessary, have follow-up conversation
   - Ensure the list of tasks can be completed within the two-week sprint.
   - Reprioritise tasks based on current workloads.
   - Share estimated story points (hours) on each ticket.
+  - Understand when _product day_ for the engineer will be and wht they will work on.
 - **Pre-Meeting Developer Huddle**: Allocate the first 10 minutes of the sprint meeting for developers only. This time allows the engineering team to:
     - Align internally on task priorities and effort estimates.
     - Discuss any technical challenges or dependencies.

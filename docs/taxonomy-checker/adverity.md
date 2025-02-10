@@ -52,3 +52,4 @@ To achieve the objectives outlined above, follow these guidelines when configuri
   - `advertiser_id`
   - `advertiser_name`
 
+these will help build the breadcrumbs for joining the data back to the SIGNAL pipeline. 
