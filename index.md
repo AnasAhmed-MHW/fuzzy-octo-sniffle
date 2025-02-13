@@ -10,4 +10,3 @@ This repository serves as a comprehensive guide for various processes and best p
 
 It includes detailed instructions on setting up and managing different platforms, automated testing, CI/CD pipelines, and more. 
 The documentation is organised to help you quickly find the information you need.
-
