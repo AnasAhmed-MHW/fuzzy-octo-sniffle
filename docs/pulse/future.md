@@ -6,12 +6,11 @@ last_modified_date: 2025-01-23 12:00
 ---
 
 
-10. Future Enhancements
 
-Planned Features:
+Planned Features
 
-List of features or improvements to be added (e.g., support for additional languages, advanced analytics on gold tables).
+List of features or improvements to be added 
 
-Known Limitations:
+Known Limitations
 
-Current limitations or challenges in the project.
+Current limitations or challenges in the project

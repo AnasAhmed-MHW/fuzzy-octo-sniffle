@@ -34,3 +34,14 @@ Every process should be validated through **automated and manual testing**:
   - Freshness of data across different sources.  
 
 By embedding these principles into the pipeline’s design, we create a system that is **scalable, maintainable, and resilient**, ensuring high-quality data and seamless client onboarding.  
+
+
+## Things to do in 2025
+
+1. Migrate to Metastores!
+2. Shift all ETL Notebooks to datastream-etl!
+3. Adding Tests post workflow
+4. Standardise logging!
+5. Easy Manual Overrides!
+6. Standardise the Forecasting Tables
+

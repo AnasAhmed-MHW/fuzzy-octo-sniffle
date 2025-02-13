@@ -15,3 +15,5 @@ With the {channel} as a folder.
 
 Example `canonical/name/meta`
 
+The script will read trhe 'latest' file dated in this folder.
+
