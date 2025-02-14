@@ -54,3 +54,6 @@ To rerun MediaPlans, follow these steps:
    ```
 5. This process moves the MediaPlan into the `uploads` folder, triggering the MediaPlan workflow to rerun the MediaPlan.
 
+
+{: .warning}
+Running an Inactive MediaPlan (with a different MediaPlan Name and the same MediaPlan ID) will overwrite the data for the current active / latest MediaPlan

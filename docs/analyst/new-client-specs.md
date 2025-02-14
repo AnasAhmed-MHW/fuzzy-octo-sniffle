@@ -27,6 +27,7 @@ We have created a [Google Sheet](https://docs.google.com/spreadsheets/d/1ttLu_d2
 - **All investment included in media plan?**: Specifies whether all media investment is tracked in MediaPlans (Y/N).
 - **Account ID / Name / Identifier**: List of account IDs or advertiser IDs for debugging.
 - **Platform Authorisation Owner / Contact Email**: Contact responsible for granting API access.
+- **conversion names/ floodlights**: Which floodlight or conversion is applicable to the activity
 
 ### Engineer Input Fields
 - **Adverity Authorisation to be Used / Given**: Email address for API access (typically `adtech.analytics@mediahubww.com`).
