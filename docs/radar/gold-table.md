@@ -39,3 +39,12 @@ A method to get around this.
 3. Join onto a gold table based on the mandatory columns and dates (as you cannot be certain if the line items will stay in the same section)
 
 
+## Clients
+
+### Value Retail
+
+Due to the nature of the client - and being the first to onboard RADAR some of the templates and features were not adopted onto this. 
+There is no "Actualised" section in the mediaplans and the taxonomy values do not always align to the taxonomy values in SIGNAL theefore this is taking a more filtered approach
+There is also a 2 step agency process to this and some mediaplans and channels were not properly completed. Pauline has attempted to help as much as possible on this and has created mapping features to help with this.
+
+

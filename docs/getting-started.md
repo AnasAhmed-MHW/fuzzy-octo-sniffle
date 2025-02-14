@@ -66,6 +66,8 @@ Our codebase is hosted on the Mediahub GitHub Organisation: [Mediabrands-MHW-LDN
    `FirstnameLastname-OpCo` (e.g., AlviChowdhury-MHW).  
 2. Request access from an organization owner (Alvi, Harrison, James, or Ben).  
 3. Email `githubsupport@interpublic.com` for full access.
+4. Email `O365LicenseRequests.SM@corp.ipgnetwork.com` to request and sign the ISR (keep the github support email looped in)
+5. You will need the Hyperion billing code - XXXX
 
 ---
 
