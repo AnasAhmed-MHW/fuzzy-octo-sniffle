@@ -20,20 +20,26 @@ There is a date range in the Site served notebook so if you are doing historical
 Have a read through of the README file in the siteserved folder to understand how to add a new channel. 
 
 
-This is what the siteserved process look: 
+This is what the siteserved process look for New Balance: 
 
 
 ```mermaid
 graph LR;
     accTitle: Very High Level Overview
     accDescr: Tables Overview
-    raw_global_bronze_thetradedeskmanual_spend --> prod_global_gold_siteserved_placement;
-    prod_global_gold_siteserved_placement --> hive_metastore_new_balance_silver_campaignmanager_reporting;
-    hive_metastore_new_balance_silver_campaignmanager_reporting --> hive_metastore_new_balance_gold_parsed_display;
-    hive_metastore_new_balance_gold_parsed_display --> prod_new_balance_gold_display;
-    prod_new_balance_gold_display --> hive_metastore_new_balance_gold_display;
+    
+    raw.global.bronze_thetradedeskmanual_spend --> prod.global.gold_siteserved_placement;
+    
+    raw.new_balance.bronze_campaignmanager_delivery --> hive_metastore.new_balance.silver_campaignmanager_reporting;
+    prod.global.gold_siteserved_placement --> hive_metastore.new_balance.silver_campaignmanager_reporting;
+
+    hive_metastore.new_balance.gold_parsed_display --> prod.new_balance.gold_display;
+    hive_metastore.new_balance.silver_campaignmanager_reporting --> prod.new_balance.gold_display;
+    prod.new_balance.gold_display --> hive_metastore.new_balance.gold_display;
 
 ```
+
+This is what the TaxonomyChecker process looks like in order to create hive_metastore.new_balance.gold_parsed_display which is joined with the hive_metastore.new_balance.silver_campaignmanager_reporting in order to create prod.new_balance.gold_display:
 
 ```mermaid
 graph LR;
@@ -41,17 +47,70 @@ graph LR;
     prod_new_balance_silver_namingconv_input --> prod_new_balance_silver_namingconv_output;
     prod_new_balance_silver_namingconv_output --> prod_new_balance_gold_namingconv_signaloutput;
     prod_new_balance_gold_namingconv_signaloutput --> hive_metastore_gold_namingconvention_output;
-    hive_metastore_gold_namingconvention_output --> hive_metastore_new_balance_gold_parsed_display_campaign;
-    hive_metastore_new_balance_gold_parsed_display_campaign --> hive_metastore_new_balance_gold_parsed_display_adset;
-    hive_metastore_new_balance_gold_parsed_display_adset --> hive_metastore_new_balance_gold_parsed_display_ad;
-
-    hive_metastore_new_balance_gold_parsed_display_campaign -->|joined with| hive_metastore_new_balance_gold_parsed_display_adset;
-    hive_metastore_new_balance_gold_parsed_display_adset -->|joined with| hive_metastore_new_balance_gold_parsed_display_ad;
-
+    hive_metastore_gold_namingconvention_output -->  hive_metastore_new_balance_gold_parsed_display;
 ```
 
-- In order to manually upload a CSV file with the missing spend, you must adhere to the structure of the other files and put it in the s3 location: s3://mh-rawdata-global/global/display/dsp_spend/thetradedeskmanual/
-- Make sure CSV file has no commas and is delimited by ; (can use Sublime text editor or Notepad++)
-- The main columns that matter in the CSV file for processing are dt_filename, placement_adset_id, impressions, media_spend & currency. Currently, all the other columns are not necessary for filling in missing spend
-- Please be wary that spend is calculated by for calcualting the CPI
+# DSP Spend Processing Pipeline
+
+## Overview
+
+Most of this pipeline must be run using a **Unity-enabled cluster**, specifically the **DataOps Shared Compute Cluster (dev uc)**.
+
+## Manually Uploading a CSV File
+
+If you need to manually upload a CSV file with missing spend data, follow these steps:
+
+1. Ensure the CSV follows the structure of existing files.
+2. Upload the file to the S3 location:
+   ```
+   s3://mh-rawdata-global/global/display/dsp_spend/thetradedeskmanual/
+   ```
+3. **Formatting requirements:**
+   - The CSV file must **not** contain commas.
+   - Use **`;`**** (semicolon)** as the delimiter.
+   - You can use **Sublime Text Editor** or **Notepad++** to ensure proper formatting.
+
+## Important Columns for Processing
+
+The following columns in the CSV file are required for processing:
+
+- `dt_filename`
+- `placement_adset_id`
+- `impressions`
+- `media_spend`
+- `currency`
+
+All other columns are **not necessary** for filling in missing spend.
+
+## Spend Calculation in `gold_display` Tables
+
+- Spend is calculated using **CPI (Cost Per Impression)**:
+  ```
+  cpi = media_cost / impressions
+  spend = cpi * impressions
+  ```
+- `impressions` are sourced from:\
+  `raw.new_balance.bronze_campaignmanager_delivery`
+
+## Platform Column in `gold_display`
+
+- In the **gold\_display table**, the `publisher` column is equivalent to `platform`.
+- The reason for this mapping is unclear, but it may be due to:
+  - More **null values** in the `platform` column.
+  - Users being more likely to fill in the `publisher` section of `placement_adset_name`.
+
+## Platform Lookup in `TaxonomyChecker`
+
+- A lookup in the **TaxonomyChecker pipeline** fills in platform data.
+- This is necessary because users often enter incorrect values in `placement_adset_name`.
+- The lookup can be found here:\
+  [Taxonomy Lookup Constants](https://github.com/Mediabrands-MHW-LDN-Github/TaxonomyChecker/blob/main/constants.py)
+- The notebook using the lookup is located here:\
+  [Gold Table Processing Notebook](https://github.com/Mediabrands-MHW-LDN-Github/TaxonomyChecker/blob/main/parsed/New%20Balance%20-%20Gold%20Table.py)
+
+---
+
+This README provides the necessary details for managing DSP spend data within the pipeline. Ensure that all manual uploads follow the guidelines to avoid processing errors.
+
+
 
