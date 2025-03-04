@@ -43,11 +43,11 @@ This is what the TaxonomyChecker process looks like in order to create hive_meta
 
 ```mermaid
 graph LR;
-    raw_new_balance_bronze_campaignmanager_naming_conv --> prod_new_balance_silver_namingconv_input;
-    prod_new_balance_silver_namingconv_input --> prod_new_balance_silver_namingconv_output;
-    prod_new_balance_silver_namingconv_output --> prod_new_balance_gold_namingconv_signaloutput;
-    prod_new_balance_gold_namingconv_signaloutput --> hive_metastore_gold_namingconvention_output;
-    hive_metastore_gold_namingconvention_output -->  hive_metastore_new_balance_gold_parsed_display;
+    raw.new_balance.bronze_campaignmanager_naming_conv --> prod.new_balance.silver_namingconv_input;
+    prod.new_balance.silver_namingconv_input --> prod.new_balance.silver_namingconv_output;
+    prod.new_balance.silver_namingconv_output --> prod.new_balance.gold_namingconv_signaloutput;
+    prod.new_balance.gold_namingconv_signaloutput --> hive_metastore.new_balance.gold_namingconvention_output;
+    hive_metastore.new_balance.gold_namingconvention_output -->  hive_metastore.new_balance.gold_parsed_display;
 ```
 
 # DSP Spend Processing Pipeline
