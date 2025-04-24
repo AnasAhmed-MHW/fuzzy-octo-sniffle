@@ -4,7 +4,7 @@ nav_order: 2
 last_modified_date: 2023-11-20 12:00
 ---
 
-# Getting Started in the Data Team
+# Getting Started in the Mediahub Data Team
 
  
 <details open markdown="block">
