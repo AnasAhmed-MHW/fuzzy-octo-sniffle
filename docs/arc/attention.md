@@ -1,3 +1,5 @@
+ARC is when we use the Lumen attention data in order to create a bidlist + whitelist which we attach to the adgroup for targeting.
+
 ARC repo currently only works on the DataOps Shared Compute Cluster. API secret keys and secret login details are stored on this cluster only. 
 
 ## Tradedesk - running a new campaign with ARC
