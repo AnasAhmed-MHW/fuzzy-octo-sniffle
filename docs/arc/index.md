@@ -26,8 +26,8 @@ ARC supports campaign setup, bidlist and whitelist management, and performance t
 
 ```mermaid
 graph TD;
-    A[Define Campaign in Dictionary] --> B[Choose Action: test, create, refresh, attach, create and attach];
-    B --> C[Run Notebook (TDD or Yahoo)];
-    C --> D[Bidlist & Whitelist Created/Attached];
+    A[Define Campaign in Dictionary] --> B[Choose Action: test / create / refresh / attach];
+    B --> C[Run Notebook - TDD or Yahoo];
+    C --> D[Bidlist and Whitelist Created / Attached];
     D --> E[Campaign Updated in DSP];
 
