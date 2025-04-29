@@ -1,5 +1,3 @@
-## Databricks Cluster
-
 ARC repo currently only works on the DataOps Shared Compute Cluster. API secret keys and secret login details are stored on this cluster only. 
 
 ## Tradedesk - running a new campaign with ARC
