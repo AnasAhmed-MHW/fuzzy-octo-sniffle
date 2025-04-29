@@ -2,6 +2,8 @@
 
 Arc Contextual is when we target by a page url level for display campaigns.
 
+ARC repo currently only works on the DataOps Shared Compute Cluster.
+
 ## Tradedesk - running a new campaign with ARC
 
 With ARC Tradedesk campaigns we attach both a bidlist and a whitelist when running campaigns.
