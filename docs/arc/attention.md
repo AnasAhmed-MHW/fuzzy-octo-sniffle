@@ -1,11 +1,12 @@
 ---
-title: attention
+title: Attention
 parent: ARC
 last_modified_date: 2025-04-30 12:00
 ---
 
+## ARC Attention
 
-ARC is when we use the Lumen attention data in order to create a bidlist + whitelist which we attach to the adgroup for targeting.
+ARC is when we use the Lumen attention data in order to create a bid list + allow list which we attach to the adgroup for targeting.
 
 ARC repo currently only works on the DataOps Shared Compute Cluster. API secret keys and secret login details are stored on this cluster only. 
 
