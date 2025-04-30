@@ -22,7 +22,23 @@ Save both tables as xlsx tables.
 
 For the Bidlist table, make sure the column names are Site / App ID & Bid Factor (2 decimal places). The bid list file should look something like this:
 
+| Site / App ID        | Bid Factor |
+|----------------------|------------|
+| example.com          | 1.2        |
+| mobile-app-123       | 1.9        |
+| news-site.net        | 1.0        |
+| video-streamer.app   | 1.5        |
+| blog-platform.co     | 1.8        |
+
 The allow list file should look something like this: 
+
+| Site / App ID        |
+|----------------------|
+| example.com          |
+| mobile-app-123       |
+| news-site.net        |
+| video-streamer.app   |
+| blog-platform.co     |
 
 Go to the ad groups you need to add the bid list and white list to and you need to click ADD RAIL under TARGETING in order to add the allow list. After that you need to click ADD RAIL under OPTIMIZATIONS TO add a bid list: 
 
