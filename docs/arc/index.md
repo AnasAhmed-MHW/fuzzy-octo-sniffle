@@ -30,4 +30,5 @@ graph TD;
     B --> C[Run Notebook - TDD or Yahoo];
     C --> D[Bidlist and Whitelist Created / Attached];
     D --> E[Campaign Updated in DSP];
+```
 
