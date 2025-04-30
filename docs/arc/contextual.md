@@ -12,6 +12,7 @@ ARC repo currently only works on the DataOps Shared Compute Cluster.
 
 ## General ARC Contextual Process
 
+```mermaid
 flowchart LR
     A[Peer39<br/>Send Page URLs] --> B[S3 Bucket<br/>Store Raw URLs]
     B --> C[Databricks<br/>Filter & Process URLs]
@@ -27,6 +28,8 @@ flowchart LR
     classDef storage fill:#FFF3E0,stroke:#F57C00,stroke-width:2px;
     classDef processing fill:#E8F5E9,stroke:#388E3C,stroke-width:2px;
     classDef destination fill:#E1F5FE,stroke:#0288D1,stroke-width:2px;
+```
+
 
 ## S3 Bucket
 
