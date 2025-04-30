@@ -3,7 +3,7 @@ title: attention-manual
 parent: ARC
 last_modified_date: 2025-04-30 12:00
 ---
-
+## ARC Manuel
 
 With current API write issues, here we can show you how to manually upload a standard ARC attention bid list and allow list to the adgroup.
 
@@ -16,7 +16,7 @@ flowchart TD
 
 Use this notebook to export the bid list and the allow list:
 
-LINK
+[LINK](https://dbc-341b6afb-df67.cloud.databricks.com/editor/notebooks/3013872570025463?o=7058903129942627#command/6014209298075960)
 
 Save both tables as xlsx tables.
 
