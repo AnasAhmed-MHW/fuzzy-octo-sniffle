@@ -1,3 +1,9 @@
+---
+title: contextual
+parent: ARC
+last_modified_date: 2025-04-30 12:00
+---
+
 ## ARC Contextual
 
 Arc Contextual is when we target by a page url level for display campaigns. You can't directly plug page level url's into Tradedesk or Yahoo DSP. You have to do it through an affiliated third party like Peer39.
