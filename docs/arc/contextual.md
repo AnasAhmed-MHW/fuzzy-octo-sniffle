@@ -46,7 +46,7 @@ This is the notebook that runs ARC Contextual:
 
 There may be more then one workflow to run an ARC Contextual campaign. For example, currently for Kraken this is the workflow: 
 
-[View Workflow](https://dbc-341b6afb-df67.cloud.databricks.com/jobs/1456621986298?o=7058903129942627)
+[View Workflow](https://dbc-341b6afb-df67.cloud.databricks.com/jobs/1070042294661661?o=7058903129942627)
 
 ### Get URLs process
 
