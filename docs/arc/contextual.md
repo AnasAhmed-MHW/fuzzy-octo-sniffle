@@ -61,19 +61,13 @@ The push_urls.py script gets the urls from a processed table (for Kraken for exa
 
 You need to first create the segments in the Peer39 platform
 
-With ARC Tradedesk campaigns we attach both a bidlist and a whitelist when running campaigns. Login details can be found in the bitwarden. You need to go to this site: https://app.peer39.com/manage and set up a segment like so and copy the category ID:
+With ARC Tradedesk campaigns we attach both a bidlist and a whitelist when running campaigns. Login details can be found in the bitwarden. The Seat ID/Advertiser ID comes from the DSP. You need to go to this [Peer39 site](https://app.peer39.com/manage) and set up a segment like so and copy the category ID:
 
-![Peer39](https://lh3.googleusercontent.com/pw/AP1GczNcSp3JcC5_WeqWZPrbsXzsEbHlIzXLJTyVbmPH-MhPYCr-0DUE9GXpepPGV9FM7j9rFH3FA-g9x8BFdeCs89sSiA6_kRChufzr7qbKw81Gu-7-_jGUSWZZue6gc-oYCvn9Yh3-y8I2fVPj0oz2erjS=w1912-h963-s-no-gm?authuser=0)
+![Peer39](https://lh3.googleusercontent.com/pw/AP1GczNFX_8MLvpdmq1UidDGspUfBoeZ_R9K6OHjpJOGO2jEMMQdxFN6ZBhUpDpVtlLVbAgPt545b86e7G1AfJkiSvJx5WlGvWSCJuYZWoIF9XK5D5e_E9MhR13KjYt3OZmnCMY0LR-FYiviJfEt9LNQc7mr=w1427-h1022-s-no-gm?authuser=0)
+
+The current Partner ID for a Tradedesk campaign is 1407. For a Yahoo DSP campaign it's 1423. 
 
 Then create a new entry in the dictionary in the constants.py and add the category name, category ID and the tier to it: 
 
-![Databricks](https://lh3.googleusercontent.com/pw/AP1GczOFtnp_5zLH2-L8NdxEsQ8DuDGEmyl8nD3UV26yG5WBjGxd6MmxZuS6fgWT-5QFi6cOS4r4ES9wTjUc3ciwsRdFn6kic3XtHEfxFZMCPzN8NmVmwkN2SffGEcynUKk86CGL3WwdPfJCh4DUnkM2Zlvr=w1725-h445-s-no-gm?authuser=0)
-
-## FAQS
-
-1. 
-2. 
-3. 
-4. 
-
+![Databricks](https://lh3.googleusercontent.com/pw/AP1GczOuLj-cNxafj9zSX8Ot3eBwqsxkOTEZU-7FVvFiXrIOjHwHLW6w2JdYFLl4olAiQiLDMY9fIFYl-KwPqPyWj8DJYFYj-hamLJzMnsUJPqU7gYI0CheZZNWhizvRug6xhjuPXHjBhsYjonQQVMdzTuCd=w463-h365-s-no-gm?authuser=0)
 
