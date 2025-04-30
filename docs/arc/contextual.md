@@ -1,5 +1,5 @@
 ---
-title: contextual
+title: Contextual
 parent: ARC
 last_modified_date: 2025-04-30 12:00
 ---
@@ -35,17 +35,18 @@ flowchart LR
 
 Currently the URLs go to this bucket here. When settting up a new campaign, it would be best to receive those files in a new folder in the bucket: 
 
-https://us-east-1.console.aws.amazon.com/s3/buckets/p39-prod-feedout-mediahub
+[View S3 Bucket](https://us-east-1.console.aws.amazon.com/s3/buckets/p39-prod-feedout-mediahub)
+
 
 ## Databricks Notebook & Workflow
 
 This is the notebook that runs ARC Contextual: 
 
-https://dbc-341b6afb-df67.cloud.databricks.com/editor/notebooks/1070495127561986?o=7058903129942627#command/6120987330216781
+[View Notebook](https://dbc-341b6afb-df67.cloud.databricks.com/editor/notebooks/1070495127561986?o=7058903129942627#command/6120987330216781)
 
 There may be more then one workflow to run an ARC Contextual campaign. For example, currently for Kraken this is the workflow: 
 
-https://dbc-341b6afb-df67.cloud.databricks.com/jobs/1456621986298?o=7058903129942627
+[View Workflow](https://dbc-341b6afb-df67.cloud.databricks.com/jobs/1456621986298?o=7058903129942627)
 
 ### Get URLs process
 
