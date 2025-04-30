@@ -1,5 +1,5 @@
 ---
-title: attention-manual
+title: Attention Manual
 parent: ARC
 last_modified_date: 2025-04-30 12:00
 ---
@@ -40,6 +40,10 @@ The allow list file should look something like this:
 | video-streamer.app   |
 | blog-platform.co     |
 
-Go to the ad groups you need to add the bid list and white list to and you need to click ADD RAIL under TARGETING in order to add the allow list. After that you need to click ADD RAIL under OPTIMIZATIONS TO add a bid list: 
+Go to the ad groups you need to add the bid list and white list to and you need to click ADD RAIL under TARGETING in order to add the allow list. After that you need to click ADD RAIL under OPTIMIZATIONS to add a bid list: 
 
-![screenshot 1](https://lh3.googleusercontent.com/pw/AP1GczMakQmCxMjrOXchPxIo3bfolGo2IOV9aKmj37NGLTfTbfL8AGFx10-qrDGdhDr5YM7skwo7nTLQy6lG4iVziJOa1oCtj0fxTodYMdKMgHxvNiIWJqrsTWyI0tWEtOJioFExP9Af7NmLuF1HGRIXdPGc=w1548-h968-s-no-gm?authuser=0)
+![screenshot 1](https://lh3.googleusercontent.com/pw/AP1GczPXzvCyxuNrlesocqluaJBAQPpeletCvBDCZqtdTTy4eqBtui5bEeAcS55Sv2RwMDd4yH1Pu_DbMINwsDKHKoZec-h6fTnbZ6cBJHUkDwcImN0wLoqWjYYluG72i9tf-QLLBWOTTpVuhuvEm4RKNcb1=w1883-h1007-s-no-gm?authuser=0)
+
+Remember for the allow list you need to select "Inclusion":
+
+![screenshot 1](https://lh3.googleusercontent.com/pw/AP1GczNSzqCc2ZuPesXqcnQShq3kSTGBzXsl0rfK1KIimzDg-Dn_9zO5U2xycBihnoWleAD68OAxBiD__RjH2fxbtLLaxiTPcIdaNRrrqpppvU4rtKYcryJNKK7NADpqh2GkJy7rf3dDkgAOo67YsNfZ7LGe=w1891-h1011-s-no-gm?authuser=0)
