@@ -7,7 +7,12 @@ last_modified_date: 2025-09-22 12:00
 
 # The Trade Desk pipeline
 
-The Trade Desk spend data gets pulled from a report called "Global | TTD | SpendPlacement" and into an Adverity datastream also called "Global | TTD | SpendPlacement." If you need to add a new column, delete a column or edit the report in some kind of way, you need to create a brand new report and await 24 hours before it appears in Adverity. Broadly, this is what the pipeline looks like:
+The Trade Desk spend data gets pulled from a report called "Global \| TTD \| SpendPlacement" and into an Adverity datastream also called "Global \| TTD \| SpendPlacement." If you need to add a new column, delete a column or edit the report in some kind of way, you need to create a brand new report and await 24 hours before it appears in Adverity. Broadly, this is what the pipeline looks like:
+
+- Source report: Global \| TTD \| SpendPlacement
+- Adverity datastream: Global \| TTD \| SpendPlacement
+- Note: Creating/altering the report requires creating a brand new report and waiting 24 hours for it to appear in Adverity.
+
 
 ```mermaid
 flowchart TD
