@@ -58,8 +58,8 @@ Certain platforms or channels have unique challenges when fetching data via APIs
   - API reports must be created manually through an account, linked to another API account.  
 
 - **Solution**:  
-  - Generate reports manually using **alvi.chowdhury@mediahubww.com**.  
-  - Link these reports to the API Adverity account: **ttd_api_w77tsd0_adverity@matterkind.com**.  
+  - Generate reports manually using **ttd_api_multipartner_adverity@mediahubww.com**.  
+  - Link these reports to the API Adverity account: **ttd_api_multipartner1@mediahubww.com**.  
 
 - **Issue 2**:  
   - New or regional TTD partners require approval and process alignment with multiple TTD representatives.  
@@ -67,4 +67,10 @@ Certain platforms or channels have unique challenges when fetching data via APIs
 
 - **Solution**:  
   - For each partner, create separate datastreams.  
-  - Liaise with TTD representatives to ensure smooth onboarding and integration.  
+  - Liaise with TTD representatives to ensure smooth onboarding and integration.
+ 
+- **Issue 3**:  
+  - Figures look incorrect when you export a CSV file from Adverity.
+
+- **Solution**:  
+  - Make sure when you export a CSV file and are prompted to convert the figures, select yes.
