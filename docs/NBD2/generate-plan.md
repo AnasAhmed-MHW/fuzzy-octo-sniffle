@@ -3,7 +3,7 @@ title: Generate a Plan
 parent: Scenario Planning
 grand_parent: NBD2
 nav_order: 1
-last_modified_date: 2026-02-23 12:00
+last_modified_date: 2026-02-24 12:00
 ---
 
 ![Last Revised](https://img.shields.io/badge/last%20revised-2026--02--19-blue?style=flat-square)
@@ -25,7 +25,7 @@ Use the Plan Generator when you're starting fresh and want NBD to recommend the 
    - **1** = Very conservative (minimal changes)
    - **3** = Balanced (recommended default)
    - **5** = Aggressive (maximum flexibility)
-   - See [Understanding the Risk Slider](scenario-planning.md#understanding-the-risk-slider) for details
+   - See [Understanding the Risk Slider](../scenario-planning#understanding-the-risk-slider) for details
 
 <!-- SCREENSHOT: Risk slider control showing values 1-5 with default at 3 -->
 
@@ -53,13 +53,13 @@ Use the Plan Generator when you're starting fresh and want NBD to recommend the 
 7. **Review/Edit Constraints** (optional)
    - Default constraints are based on historical spend + risk level
    - Click "Edit Constraints" to manually adjust minimum/maximum spend by channel or market
-   - See [Working with Constraints](scenario-planning.md#working-with-constraints) for guidance
+   - See [Working with Constraints](../scenario-planning#working-with-constraints) for guidance
 
 <!-- SCREENSHOT: Constraints editor showing channel min/max values in a table format -->
 
 8. **Select Benchmark Type**
    - Choose how to compare your optimized plan against historical norms
-   - See [Benchmark Types](scenario-planning.md#benchmark-types) for details
+   - See [Benchmark Types](../scenario-planning#benchmark-types) for details
 
 9. **Generate**
    - Click "Generate" to start the optimization

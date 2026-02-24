@@ -3,7 +3,7 @@ title: Scenario Planning
 parent: NBD2
 nav_order: 3
 has_children: true
-last_modified_date: 2026-02-23 12:00
+last_modified_date: 2026-02-24 12:00
 ---
 
 ![Last Revised](https://img.shields.io/badge/last%20revised-2026--02--19-blue?style=flat-square)
@@ -16,9 +16,9 @@ The Scenario Planning module helps you decide what to do next by generating, for
 
 NBD offers three main scenario planning capabilities:
 
-1. **[Generate New Plans](generate-plan.md)** - Create optimal media plans from scratch
-2. **[Forecast Plans](forecast-plan.md)** - Predict KPI outcomes for existing plans
-3. **[Optimize Plans](optimise-plan.md)** - Refine existing plans to maximize impact
+1. **[Generate New Plans](../generate-plan)** - Create optimal media plans from scratch
+2. **[Forecast Plans](../forecast-plan)** - Predict KPI outcomes for existing plans
+3. **[Optimize Plans](../optimise-plan)** - Refine existing plans to maximize impact
 
 All three use your econometric models to predict future performance and apply reinforcement learning to find optimal allocations.
 
@@ -74,7 +74,7 @@ Benchmarks provide context for your optimized plan by comparing it to alternativ
 
 **Note:** The Historical benchmark often shows large KPI differences because the historical plan wasn't optimized.
 
-For conceptual details, see [Glossary: Benchmarks](glossary.md#benchmarks).
+For conceptual details, see [Glossary: Benchmarks](../glossary#benchmarks).
 
 ## Sharing Plans with Others
 
@@ -95,7 +95,7 @@ Shared plans are view-only but can be used as a starting point for your own scen
 ### Workflow 1: Annual Planning
 **Goal:** Create next year's media plan
 
-1. Use **[Generate New Plan](generate-plan.md)**
+1. Use **[Generate New Plan](../generate-plan)**
 2. Set full year date range
 3. Set total annual budget
 4. Use Risk Level 3-4 (some flexibility)
@@ -106,7 +106,7 @@ Shared plans are view-only but can be used as a starting point for your own scen
 ### Workflow 2: In-Flight Optimization
 **Goal:** Improve a plan that's already running
 
-1. Use **[Optimize Existing Plan](optimise-plan.md)**
+1. Use **[Optimize Existing Plan](../optimise-plan)**
 2. Import current spend for remaining weeks
 3. Lock any spend that's already booked (set min=max)
 4. Adjust constraints for flexible channels
@@ -115,11 +115,11 @@ Shared plans are view-only but can be used as a starting point for your own scen
 ### Workflow 3: Budget Scenario Comparison
 **Goal:** Show what's possible at different budget levels
 
-1. Use **[Generate New Plan](generate-plan.md)** with Budget A
+1. Use **[Generate New Plan](../generate-plan)** with Budget A
 2. Note the Share Code
 3. Run again with Budget B
 4. Run again with Budget C
-5. Use **[Forecast](forecast-plan.md)** to predict all three scenarios
+5. Use **[Forecast](../forecast-plan)** to predict all three scenarios
 6. Compare KPI outcomes and share all three Share Codes with stakeholders
 
 

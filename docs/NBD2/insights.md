@@ -2,7 +2,7 @@
 title: Insights
 parent: NBD2
 nav_order: 2
-last_modified_date: 2026-02-23 12:00
+last_modified_date: 2026-02-24 12:00
 ---
 
 ![Last Revised](https://img.shields.io/badge/last%20revised-2026--02--19-blue?style=flat-square)
@@ -89,7 +89,7 @@ The x-axis represents spend level, and the y-axis represents the incremental imp
 
 <!-- SCREENSHOT: Response curve chart example showing S-curve with annotations for under-invested, optimal, and saturated regions -->
 
-For more detail, see [Glossary: Response Curves](glossary.md#response-curves).
+For more detail, see [Glossary: Response Curves](../glossary#response-curves).
 
 ## Interpreting Insights
 
@@ -106,7 +106,7 @@ For example, if you spent $100,000 on TV advertising and it drove 5,000 addition
 
 By comparing spend share to contribution share (e.g., 20% of spend driving 30% of contribution), you can identify over- and under-invested channels.
 
-For more on this concept, see [Glossary: Incrementality](glossary.md#incrementality--contribution).
+For more on this concept, see [Glossary: Incrementality](../glossary#incrementality--contribution).
 
 ### Cost Efficiency Metrics
 
@@ -142,7 +142,7 @@ Keep in mind that efficiency alone doesn't tell the whole story—scale and tota
 2. Review response curves across markets
 3. Check if the channel is saturated (flat curve) or has room to grow (steep curve)
 4. Compare cost efficiency across markets
-5. Use insights to inform [Scenario Planning](scenario-planning.md) decisions
+5. Use insights to inform [Scenario Planning](../scenario-planning) decisions
 
 ## Key Metrics Explained
 

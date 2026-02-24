@@ -3,7 +3,7 @@ title: Forecast a Plan
 parent: Scenario Planning
 grand_parent: NBD2
 nav_order: 2
-last_modified_date: 2026-02-23 12:00
+last_modified_date: 2026-02-24 12:00
 ---
 
 ![Last Revised](https://img.shields.io/badge/last%20revised-2026--02--19-blue?style=flat-square)

@@ -3,7 +3,7 @@ title: Optimise a Plan
 parent: Scenario Planning
 grand_parent: NBD2
 nav_order: 3
-last_modified_date: 2026-02-23 12:00
+last_modified_date: 2026-02-24 12:00
 ---
 
 ![Last Revised](https://img.shields.io/badge/last%20revised-2026--02--19-blue?style=flat-square)
@@ -44,7 +44,7 @@ Use the Plan Optimiser when you have a plan that's already in progress or partia
 
 ## Key Difference from Generate
 
-- **[Generate](generate-plan.md)** starts from scratch using historical spend as a guide
+- **[Generate](../generate-plan)** starts from scratch using historical spend as a guide
 - **Optimise** starts from your actual plan and makes targeted improvements
 
 The optimiser also uses **temporal constraints** (±2 weeks) to keep the optimised plan similar to your input, preserving domain knowledge like campaign timing or product launches.
@@ -59,4 +59,4 @@ When optimizing an existing plan, NBD applies temporal constraints to maintain t
 
 This ensures the optimiser improves your plan without ignoring the business context you built into the original timing.
 
-For technical details, see [Glossary: Constraints](glossary.md#constraints).
+For technical details, see [Glossary: Constraints](../glossary#constraints).

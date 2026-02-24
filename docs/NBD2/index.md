@@ -3,7 +3,7 @@ title: NBD2
 layout: default
 nav_order: 4
 has_children: true
-last_modified_date: 2026-02-23 12:00
+last_modified_date: 2026-02-24 12:00
 ---
 
 ![Last Revised](https://img.shields.io/badge/last%20revised-2026--02--19-blue?style=flat-square)
@@ -26,7 +26,7 @@ NBD is a specialist tool, but is designed to be user-friendly enough for anyone 
 
 ## Two Primary Functions
 
-### 1. [Insights](insights.md)
+### 1. [Insights](insights)
 
 The Insights module helps you understand past media performance:
 
@@ -35,13 +35,13 @@ The Insights module helps you understand past media performance:
 - **Global Meta-Analysis** - Understand overall effectiveness at a global scale
 - **Market Analysis** - Drill down into market-specific dynamics
 
-### 2. [Scenario Planning](scenario-planning.md)
+### 2. [Scenario Planning](scenario-planning)
 
 The Scenario Planning module helps you plan future media investments:
 
-- **[Generate New Plans](generate-plan.md)** - Create optimal media plans for specific timeframes and budgets
-- **[Forecast Plans](forecast-plan.md)** - Predict KPI outcomes for existing media plans
-- **[Optimise Plans](optimise-plan.md)** - Refine existing strategies to maximise impact
+- **[Generate New Plans](generate-plan)** - Create optimal media plans for specific timeframes and budgets
+- **[Forecast Plans](forecast-plan)** - Predict KPI outcomes for existing media plans
+- **[Optimise Plans](optimise-plan)** - Refine existing strategies to maximise impact
 
 ## Key Concepts
 
@@ -54,7 +54,7 @@ Before diving in, it's helpful to understand these foundational concepts:
 - **Benchmarks** - Historical or default spending patterns used for comparison
 - **Response Curves** - How media impact changes with spend (diminishing returns)
 
-For detailed definitions and concepts, see [Glossary](glossary.md).
+For detailed definitions and concepts, see [Glossary](glossary).
 
 ## Getting Started
 
@@ -67,5 +67,5 @@ For detailed definitions and concepts, see [Glossary](glossary.md).
 <!-- SCREENSHOT: Client selection screen showing list of available clients -->
 
 3. **Choose Your Module:**
-   - For historical analysis → Go to [Insights](insights.md)
-   - For future planning → Go to [Scenario Planning](scenario-planning.md)
+   - For historical analysis → Go to [Insights](insights)
+   - For future planning → Go to [Scenario Planning](scenario-planning)
