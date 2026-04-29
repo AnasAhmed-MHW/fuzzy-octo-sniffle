@@ -7,6 +7,11 @@ last_modified_date: 2026-04-29 12:00
 # Curation AI Data Join
 
 ## Overview
+CurationAI merges several data sources together that contain campaign performance, attention, ethical & page speed data normalises the scores and puts the domains into 5 buckets. 
+
+The frontend of CurationAI can be accessed [here](https://main.d3jfq1plt1o8l0.amplifyapp.com/). 
+
+The backend table creation can be accessed [here](https://dbc-341b6afb-df67.cloud.databricks.com/editor/notebooks/1008854611844162?o=7058903129942627#command/6517164903498134).
 
 This pipeline builds a domain-level quality scoring table by joining four data sources, scoring each domain across key performance dimensions, and writing the result to `hive_metastore.default.bronze_curationai`. The table is also synced to DynamoDB for downstream consumption.
 
