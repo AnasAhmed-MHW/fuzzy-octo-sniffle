@@ -1,6 +1,8 @@
 
 # Mediahub Wiki README
 
+[Link to documentation site](https://supreme-goggles-2k19lzz.pages.github.io/)
+
 This is a Jekyll-based website template using the [Just the Docs](https://just-the-docs.github.io/just-the-docs/) theme. It is designed to be easily deployed on [GitHub Pages](https://docs.github.com/en/pages). The site is automatically deployed from the `main` branch using a GitHub Actions workflow. Other branches will not be published live.
 
 ---
