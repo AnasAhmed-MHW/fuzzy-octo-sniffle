@@ -1,3 +1,9 @@
+---
+title: Curation AI Data Join
+parent: CurationAI
+last_modified_date: 2026-04-29 12:00
+---
+
 # `bronze_curationai` — Data Pipeline Documentation
 
 ## Overview
