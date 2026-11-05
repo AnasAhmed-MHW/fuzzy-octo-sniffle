@@ -13,7 +13,7 @@ last_modified_date: 2026-10-27 12:00
 > Path: `/Users/anas.ahmed@mediahubww.com/FF and Sales - Splits`  
 > Object ID: `1008854611844160`
 
-This notebook builds the **weekly footfall & sales KPI gold table** for Value Retail MMM. It combines village daily performance (sales / footfall) with Coniq and Membership data split Domestic vs International, then derives non-member sales and footfall splits used downstream (including by [Non-Media Data Processing](non-media-data-processing) as the join spine).
+This notebook builds the **weekly footfall & sales KPI gold table** for Value Retail MMM. It combines village daily performance (sales / footfall) with Coniq and Membership data split Domestic vs International, then derives non-member sales and footfall splits used downstream (including by [Non-Media Data Processing](non-media-data-processing/) as the join spine).
 
 ---
 
@@ -178,7 +178,7 @@ DROP TABLE IF EXISTS prod.value_retail.gold_mmm_ffandsales
 | **Dev table** | `dev.value_retail.gold_mmm_ffandsales` (created via `CREATE TABLE AS`) |
 | **Prod table** | `prod.value_retail.gold_mmm_ffandsales` (Delta overwrite, `overwriteSchema`) |
 | **Grain** | `_year` × `week_commencing_monday` × `village_name` |
-| **Downstream** | Spine for [Non-Media Data Processing](non-media-data-processing); SQL pulls / MMM exports |
+| **Downstream** | Spine for [Non-Media Data Processing](non-media-data-processing/); SQL pulls / MMM exports |
 
 ---
 

@@ -16,4 +16,4 @@ Documentation for work carried out on the Value Retail account.
 - [Mediaplans](mediaplans/) — online Radar → Databricks ingest, success rules, QA, and deletion
 - [True Metrics](true-metrics/) — weekly attributed footfall & sales from live spend × MMM coefficients (job `true_metrics_value_retail`)
 - [Dashboards](dashboards/) — Power BI dashboard views, breakdowns, and update steps
-- [NBD Analyst Guide](nbd/) — NBD forecast & optimisation Excel template workflow
+- [NBD Forecast and Optimisation Template](../NBD2/nbd-forecast-and-optimisation-template) — NBD forecast & optimisation Excel template workflow

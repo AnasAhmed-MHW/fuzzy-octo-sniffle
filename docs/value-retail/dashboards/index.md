@@ -12,8 +12,7 @@ Documentation for the Value Retail Power BI dashboards — what each view shows,
 
 | Page | What it covers |
 |---|---|
-| [Breakdowns](breakdowns) | Dashboard breakdown views and what each one displays |
-| [Dashboarding Steps](dashboarding-steps) | Steps for updating and refreshing the dashboards |
+| [Dashboard Breakdown](dashboard-breakdown) | Overview of all 4 Power BI dashboards — tables used, function, and links to detailed docs |
 
 ## Related
 

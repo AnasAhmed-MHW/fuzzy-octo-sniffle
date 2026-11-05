@@ -1,18 +1,20 @@
 ---
-title: 2026 forecast & optimisation template
-parent: NBD Analyst Guide
-grand_parent: Value Retail
-nav_order: 1
+title: NBD Forecast and Optimisation Template
+parent: Value Retail
+nav_order: 5
 last_modified_date: 2026-11-04 15:30
 ---
 
-# 2026 forecast & optimisation template
+# NBD Forecast and Optimisation Template
 
 **File:** [`NBD 2026 USE ME.xlsx`](https://interpublic.sharepoint.com/:f:/r/sites/TheBicesterCollection/Shared%20Documents/VR%20MMM/NBD%20Training?d=w0a3a7ed83d794a7fb718385a0a499846&csf=1&web=1&e=qdjIXE)  
 **Role:** Bridge between a **monthly media plan** and **NBD** (Next Best Decision) footfall / sales forecasts and optimisations for Value Retail villages. You split plan spend into weekly NBD inputs, paste NBD export time series back into colour-coded tabs, and read base-vs-optimised results in the output sheets.
 
 {: .important }
 > Always **make a copy** of the template per village / scenario before pasting exports. Tabs are colour-coded so you paste spend vs response into the right place.
+
+{: .note }
+> This page covers the **Excel template workflow** around NBD runs, not the NBD2 platform UI itself.
 
 ---
 
@@ -130,3 +132,9 @@ Use this for **same-budget mix** comparisons (title text references "Optimisatio
 6. Sales forecast(s) → paste responses.  
 7. QA **CHANNEL OUTPUTS** and **TARGET TEMPLATE** (targets, contribution %, audience splits).  
 8. Issues with the tool → Central team (per Instructions).
+
+---
+
+## Related
+
+- [Value Retail → Dashboarding Phase](../value-retail/mmm-data-processing/dashboarding-phase/) — MLP → NBD-shaped files → Power BI (post-model pipeline, not this Excel template)

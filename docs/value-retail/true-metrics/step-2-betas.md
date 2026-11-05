@@ -89,4 +89,4 @@ flowchart LR
 
 - Upstream spend: [Step 1 — Media spends](step-1-media-spends)
 - Downstream attribution: [Step 3 — Attribution](step-3-attribution)
-- Model inputs: [MMM Data Processing](../mmm-data-processing/) · [FF and Sales](../mmm-data-processing/non-media-data-processing/ff-and-sales-data-processing)
+- Model inputs: [MMM Data Processing](../mmm-data-processing/) · [FF and Sales](../mmm-data-processing/ff-and-sales-data-processing)

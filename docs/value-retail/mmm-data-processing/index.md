@@ -31,7 +31,7 @@ flowchart LR
 | Stage | Status | What it contributes |
 |---|---|---|
 | [Non-Media Data](non-media-data-processing/) | Documented (split by source) | Organic, email, PR, occupancy, weather, holidays, OECD, partnerships, etc. — joined onto the FF & Sales spine |
-| [FF and Sales](non-media-data-processing/ff-and-sales-data-processing) | Documented | Weekly sales, footfall, and Domestic / International member vs non-member splits (`gold_mmm_ffandsales`) |
+| [FF and Sales](ff-and-sales-data-processing) | Documented | Weekly sales, footfall, and Domestic / International member vs non-member splits (`gold_mmm_ffandsales`) |
 | [Media Investment Data](media-investment-data/) | Documented | Versioned gold mediaplan + channel mapping; Search / Social / API Display–TikTok–YouTube–PMax aggregation |
 | [Dashboarding Phase](dashboarding-phase/) | Documented | Part 1 MLP→NBD, Part 2 NBD→`gold_MMM_results_test`, job Historic + Power BI refresh |
 
